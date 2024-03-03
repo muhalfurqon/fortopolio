@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Dancing+Script:wght@600&family=Dongle:wght@700&family=Lobster&family=Oswald&family=Poppins:wght@400;700&family=Roboto:wght@900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/becebf8fbc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Dancing+Script:wght@600&family=Dongle:wght@700&family=Lobster&family=Oswald&family=Poppins:wght@400;700&family=Roboto:wght@900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Assistant:wght@200&family=Luckiest+Guy&family=Noto+Sans+Sundanese:wght@400..700&family=Ojuju:wght@200..800&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/becebf8fbc.js" crossorigin="anonymous"></script>
+    <title>Alfurqon</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+SA+Beginner:wght@700&family=Lato:ital,wght@0,900;1,300&family=Nunito:ital,wght@1,300&family=Poppins:wght@800&family=Raleway:ital,wght@1,800&display=swap');
+
+
+
+* .banner {
+    background-image: url('./image/bg6.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: cover;
+    height: 650px;
+    width: 100%;
+    /* opacity: 90%; */
+
+}
+
+.banner h1 {
+    font-size: 80px;
+    position: absolute;
+    bottom: 285px;
+    left: 400px;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: white;
+}
+
+.banner p {
+    font-size: 50px;
+    position: absolute;
+    bottom: 230px;
+    left: 430px;
+    font-weight: bold;
+    font-family: 'Anta';
+    color: white;
+}
+
+.banner p1 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 230px;
+    left: 500px;
+    font-family: 'Raleway';
+    color: white;
+}
+
+.cari{
+    position: absolute;
+    bottom: 200px;
+    left: 510px;
+    /* opacity: 90%; */
+
+}
+
+.navbar-collapse a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand b {
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 19px;
+}
+
+.navbar-scroll
+{
+    background-color: rgb(45, 45, 45);
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5); 
+    transition: 0.6s;
+ }
+ 
+ .navbar-scroll .nav-item .nav-link
+ {
+     color: white;
+} 
+ 
+  .navbar-scroll .nav-item .nav-link:hover
+{
+     color: rgb(218, 218, 218);
+} 
+ 
+ 
+.navbar-scroll .brand-warna
+{
+     color: black;
+}
+
+.brand-warna
+{
+    color: rgb(207, 207, 207);
+    font-size: 30px;
+}
+
+.brand-warna:hover
+{
+    color: rgb(207, 207, 207);
+}
+
+.nav-item .nav-link
+{
+    display: block;
+    line-height: 36px;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.nav-item .nav-link:hover{
+    color: rgb(153, 153, 153);
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+.mb-10
+{
+    margin-bottom: 150px;
+}
+
+.btn
+{
+    text-transform: uppercase !important;
+    vertical-align: bottom !important;
+    border: 0 !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%) !important;
+    font-weight: 500 !important;
+    padding: 0.625rem 1.5rem 0.5rem !important;
+    font-size: .75rem !important;
+    line-height: 1.5 !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+}
+
+*, :after, :before {
+    box-sizing: border-box !important;
+}
+
+.profil
+{
+      background-color: white;
+      width: 100%;
+   
+      padding-top: 90px;
+      padding-bottom: 80px;
+}
+
+.row p
+{
+      font-family: 'Assistant';
+} 
+
+.text
+{
+      text-align: center;
+}
+  
+
+.maksimumsize
+{
+    width: 40%;
+    transition: 0.3s;
+}
+
+.maksimumsize:hover
+{
+    width: 45%;
+}
+
+.projek
+{
+      background-color: white;
+      width: 100%;
+   
+      padding-top: 120px;
+      padding-bottom: 70px;
+}
+
+.col text{
+    text-align: center;
+}
+
+.mypost{
+    width: 95%;
+    max-width: 500px;
+    margin: 20px auto 0px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 0px gray;
+}
+
+.mybuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mybuttons > button {
+    margin-right: 20px;
+}
+
+.kontak{
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+    </style>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-expand-lg p-md-1 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4 brand-warna" href="#"><b>EMALL</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-2 p-1 ms-auto">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item me-2 p-1 ms-auto">
+                        <a class="nav-link" href="#profil">Profile</a>
+                    </li>
+                    <li class="nav-item me-2 p-1 ms-auto">
+                        <a class="nav-link" href="#projek">Projek</a>
+                    </li>
+                    <li class="nav-item me-2 p-1 ms-auto">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid banner">
+        <h1>MUHAMAD</h1>
+        <p>AL</p>
+        <p1>FURQON</p1>
+        <button class="btn btn-sm btn-danger me-2 cari" type="button">INGIN CARI TAU LEBIH ?</button>
+    </section>
+    <section class="profil" id="profil">
+        <div class="text-center mt-5 mb-5 galeri" id="gallery"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <h1 class="text-black mt-5">MUHAMAD AL FURQON</h1>
+                    <hr class="divider divider-light" />
+                    <p class="text-white-75 mb-4 quotes">“Saya Muhamad Al Furqon, berasal dari Jatiwangi, Majalengka, Jawa Barat. Usia saya saat ini adalah 21 tahun dan saat ini saya sedang menempuh pendidikan S1 di Universitas Komputer Indonesia."</p>
+                    <p class="text-white-75 mb-4 quotes">“Life is never flat. Chitato”</p>
+                </div>
+                <div class="col-md-8 text-center">
+                    <img class="maksimumsize" src="./image/me1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projek" id="projek">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col mr-6">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" src="./image/projek2.png" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">KoSong</text>
+                    </img>
+                    <div class="card-body">
+                        <p class="card-text">KoSong adalah projek saya secara berkelompok untuk memenuhi ujian akhir semester. KoSong merupakan website lagu yang bisa kalian pilih sesuai mood kalian.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mr-6">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" src="./image/projek1.png" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Warra</text>
+                    </img>
+                    <div class="card-body">
+                        <p class="card-text">Warra merupakan website untuk para pedagang usaha kecil. Warra saya buat untuk memenuhi tugas ujian tengah semester</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mr-6">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" src="./image/projek4.png" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Nata</text>
+                    </img>
+                    <div class="card-body">
+                        <p class="card-text">Nata adalah website rental mobil, banyak pilihan mobil yang bisa kalian pilih. Nata saya buat secara kelompok untuk memenuhi tugas ujian akhir semester</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid py-5 warna-content kontak">
+        <div class="mypost" id="kontak">
+            <form class="py-2">
+                <div class="input-group mb-3">
+                    <input type="email" name="email" class="form-control" placeholder="Email">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope-open"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" name="text" class="form-control" placeholder="Nama">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-file-signature"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" name="text" class="form-control" placeholder="Alamat">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-home"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="comment" name="comment" class="form-control" placeholder="Pesan">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-pen"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-dark btn-block">Kirim</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="page-footer bg-dark">
+        <div class="footer-copyright text-center pt-3 text-white py-2">
+            <P style="color: white;" class="mr-4">&COPY; Copyright Muhamad Al Furqon | Lebih lanjut klik -> | <span style="white-space: pre;"> </span>
+                <a href="#"><i class="fa fa-whatsapp text-white mr-4"></i></a>
+                <a href="#"><i class="fab fa-instagram text-white mr-4"></i></a>
+            </P>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
